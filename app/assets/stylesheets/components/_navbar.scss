@@ -1,12 +1,24 @@
 .navbar-lewagon {
-  justify-content: space-between;
+  justify-content: center;
   background: white;
+  padding: 0px;
 }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.nav-item.active {
+  border-bottom: solid;
+  border-top: solid;
 }
+
+.nav-item:hover {
+  border-bottom: solid;
+  border-top: solid;
+}
+// .nav-item.active {
+//   border-right: solid;
+//   border-left: solid;
+// }
+
