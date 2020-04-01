@@ -1,23 +1,19 @@
-.about {
+.experiences {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
+  border: solid thin;
   height: 100%;
   border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: white;
 }
 
 img {
   width: 45%;
-  margin-right: 20px;
-  border-radius: 2px;
 }
 
-.bio {
-  background-color: white;
-  border-top: solid thin;
-  border-bottom: solid thin;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  border-radius: 2px;
+.education {
   flex-grow: 1;
   padding: 15px;
   h2 {
@@ -25,4 +21,11 @@ img {
   }
 }
 
+.work {
+  flex-grow: 1;
+  padding: 15px;
+  h2 {
+    text-align: center;
+  }
+}
 
