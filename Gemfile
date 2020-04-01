@@ -14,7 +14,7 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
-gem 'animate-rails', '~> 1.0', '>= 1.0.10'
+gem 'animate.css-rails', '~> 3.2'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
