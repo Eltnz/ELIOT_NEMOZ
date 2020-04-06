@@ -2,6 +2,10 @@
   justify-content: center;
   background: white;
   padding: 0px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-left: solid thin;
+  border-right: solid thin;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,13 +13,13 @@
 }
 
 .nav-item.active {
-  border-bottom: solid;
-  border-top: solid;
+  // border-bottom: solid;
+  border-top: solid thin;
 }
 
 .nav-item:hover {
-  border-bottom: solid;
-  border-top: solid;
+  // border-bottom: solid;
+  border-top: solid thin;
 }
 // .nav-item.active {
 //   border-right: solid;

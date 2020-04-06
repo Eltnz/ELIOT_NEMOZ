@@ -1,15 +1,17 @@
 .about {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  // margin-top: 10px;
   height: 100%;
-  border-radius: 3px;
+  // border-radius: 3px;
 }
 
 img {
   width: 45%;
-  margin-right: 20px;
-  border-radius: 2px;
+  // margin-right: 20px;
+  // border-radius: 2px;
+  border-top: solid thin;
+  border-bottom: solid thin;
 }
 
 .bio {
@@ -17,7 +19,7 @@ img {
   border-top: solid thin;
   border-bottom: solid thin;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  border-radius: 2px;
+  // border-radius: 2px;
   flex-grow: 1;
   padding: 15px;
   h2 {
