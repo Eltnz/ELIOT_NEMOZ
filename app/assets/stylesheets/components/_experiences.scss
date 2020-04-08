@@ -1,19 +1,17 @@
 .experiences {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
-  border: solid thin;
+  border-bottom: solid thin;
   height: 100%;
-  border-radius: 3px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  background-color: white;
+  background-color: #D9E2EB;
 }
 
-img {
-  width: 45%;
-}
 
-.education {
+
+.work2 {
+  width: 50%;
+  border-left: solid thin;
   flex-grow: 1;
   padding: 15px;
   h2 {
@@ -22,6 +20,7 @@ img {
 }
 
 .work {
+  width: 50%;
   flex-grow: 1;
   padding: 15px;
   h2 {
@@ -29,3 +28,55 @@ img {
   }
 }
 
+.intertitre {
+  text-align: center;
+  border-bottom: solid thin;
+  margin-bottom: 0px;
+}
+
+.education {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid thin;
+  }
+
+.a {
+  display: flex;
+  // justify-content: space-around;
+  text-align: center;
+  width: 50%;
+  border-right: solid thin;
+  .wagon {
+    width: 50%;
+    border-right: solid thin;
+    img {
+      width: 50%;
+      margin-bottom: 5px;
+    }
+  }
+  .aix {
+    width: 50%;
+      }
+    img {
+    width: 50%;
+    margin-bottom: 5px;
+  }
+}
+
+.b {
+  display: flex;
+  // justify-content: space-around;
+  text-align: center;
+  width: 50%;
+  .lyon {
+    width: 50%;
+    border-right: solid thin;
+  }
+  .china {
+  width: 50%;
+     img {
+    width: 50%;
+    margin-bottom: 5px;
+  }
+  }
+}
