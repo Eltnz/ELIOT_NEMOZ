@@ -9,11 +9,16 @@ scroll.classList.add('animated', 'fadeInRight')
 },{ once: true });
 // };
 
+const scroll2 = document.querySelector('.me');
 window.addEventListener('scroll', (event) => {
-    if (document.documentElement.scrollTop > 400) {
-            console.log('test')
-          }
+  if (document.documentElement.scrollTop > 400) {
+    console.log('test')
+    scroll2.style.display = "block"
+    scroll2.classList.add('animated', 'fadeInDown')
+  }
 });
+
+
 
 // const scroll2 = document.querySelector('.bio');
 // console.log(scroll2);

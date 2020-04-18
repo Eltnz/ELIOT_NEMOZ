@@ -9,7 +9,7 @@
   // margin-right: 20px;
   // border-radius: 2px;
   // border-top: solid thin;
-  border-bottom: solid thin;
+  // border-bottom: solid thin;
 }
 }
 
@@ -19,7 +19,7 @@
   // display: none;
   background-color: white;
   // border-top: solid thin;
-  border-bottom: solid thin;
+  // border-bottom: solid thin;
   border-left: solid thin;
   align-items: center;
   // box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -29,11 +29,11 @@
   h2 {
     text-align: center;
     // border-top: solid thin;
+  }
+}
 
-  }
-  p {
-    // border-bottom: solid thin;
-  }
+.me {
+  display: none;
 }
 
 
