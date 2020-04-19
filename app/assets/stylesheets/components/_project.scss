@@ -32,22 +32,43 @@ float: left;
 .project-card {
   display: flex;
   background-color: white;
-  height: 40%;
+  min-height: 40%;
   margin: 20px;
+  border-radius: 2px;
+  &:hover {
+    box-shadow: 0px 0px 5px 10px rgba(255,255,255,0.05)
+  }
 }
 
+
 .project-description {
-  width: 35%;
-  height: 100%;
-  border: solid;
+  text-align: left;
+  padding: 8px;
+  // width: 40%;
+  // height: 100%;
+  flex: 1 0 35%;
+  h2 {
+    border-top: solid thin;
+    border-bottom: solid thin;
+  }
+
 }
 
 .proto {
-  img {
-    width: 400px;
-    height: 200px;
-  }
+  width: 100%;
+  background-image: url(office.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 8px;
 
+  // justify-content: center;
+  // align-items: center;
+  // img {
+  //   // position: relative;
+  //  max-width:100%;
+  //  max-height:80%;
+
+  // }
 }
 
 
