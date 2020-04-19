@@ -6,9 +6,55 @@
 height: 100vh;
 background-size: cover !important;
 background-repeat: no-repeat !important;
-  background-position: 15% 10%;
-  overflow: auto;
+background-position: 15% 10%;
+overflow: auto;
 }
+
+.back {
+  display: flex;
+  height: 100%
+}
+
+.decoration {
+  width: 35%;
+  min-height: 1px;
+  float: left;
+}
+
+.content-project {
+width: 75%;
+min-height: 100vh;
+float: left;
+}
+
+//cards
+
+.project-card {
+  display: flex;
+  background-color: white;
+  height: 40%;
+  margin: 20px;
+}
+
+.project-description {
+  width: 35%;
+  height: 100%;
+  border: solid;
+}
+
+.proto {
+  img {
+    width: 400px;
+    height: 200px;
+  }
+
+}
+
+
+
+
+
+
 
 
 
