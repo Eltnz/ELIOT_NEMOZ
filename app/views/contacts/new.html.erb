@@ -1,1 +1,8 @@
 <h1>Message me</h1>
+
+<%= simple_form_for @contact, url: new_message_url do |f| %>
+<%= f.input :name %>
+<%= f.input :email %>
+<%= f.input :message %>
+<%= f.submit 'Send message' %>
+<% end %>

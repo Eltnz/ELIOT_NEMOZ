@@ -1,0 +1,81 @@
+.background {
+// background-image: url(office.jpg);
+// background-size: cover;
+// display:table-cell;
+// width: auto;
+height: 100vh;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+background-position: 15% 10%;
+overflow: auto;
+}
+
+.back {
+  display: flex;
+  height: 100%
+}
+
+.decoration {
+  width: 35%;
+  min-height: 1px;
+  float: left;
+}
+
+.content-project {
+width: 75%;
+min-height: 100vh;
+float: left;
+}
+
+//cards
+
+.project-card {
+  display: flex;
+  background-color: white;
+  min-height: 40%;
+  margin: 20px;
+  border-radius: 2px;
+  &:hover {
+    box-shadow: 0px 0px 5px 10px rgba(255,255,255,0.05)
+  }
+}
+
+
+.project-description {
+  text-align: left;
+  padding: 8px;
+  // width: 40%;
+  // height: 100%;
+  flex: 1 0 35%;
+  h2 {
+    border-top: solid thin;
+    border-bottom: solid thin;
+  }
+
+}
+
+.proto {
+  width: 100%;
+  background-image: url(office.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 8px;
+
+  // justify-content: center;
+  // align-items: center;
+  // img {
+  //   // position: relative;
+  //  max-width:100%;
+  //  max-height:80%;
+
+  // }
+}
+
+
+
+
+
+
+
+
+
